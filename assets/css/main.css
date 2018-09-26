@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0; }
+  body a {
+    text-decoration: none; }
+  body a:link {
+    color: white; }
+  body a:visited {
+    color: white; }
+  body a:hover {
+    color: white; }
+  body a:hover {
+    background-color: #c8c8c8; }
+  body a:active {
+    color: white; }
+  body .b_ {
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    padding-top: 15px;
+    border: white solid; }
+
+.nav_bar_background {
+  background: #333; }
+  .nav_bar_background .nav_bar {
+    max-width: 1140px;
+    margin: auto;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between; }
+    .nav_bar_background .nav_bar li {
+      display: inline;
+      padding-left: 30px; }
+    .nav_bar_background .nav_bar li:nth-of-type(9) {
+      padding-left: 200px; }
+
+.div_header {
+  background: #1e93cc; }
+  .div_header header {
+    width: 1140px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    color: #fff; }
+    .div_header header .picture1 {
+      width: 33%; }
+    .div_header header .title {
+      text-align: center;
+      width: 33%; }
+      .div_header header .title .b_start {
+        overflow: auto;
+        position: absolute;
+        background-color: #e99002;
+        transform: translateX(-50%); }
+
+.title2 {
+  text-align: center; }
+
+.content_txt {
+  background: #1e93cc; }
+  .content_txt .row {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1140px;
+    margin: auto; }
+    .content_txt .row .content {
+      width: 50%;
+      color: black; }
+
+.partners {
+  background-color: #eee;
+  width: 100%; }
+  .partners .div_partners {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+
+footer {
+  background-color: #323232;
+  font-size: 18px;
+  height: 40px; }
+  footer .b_foot {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 45px;
+    margin-bottom: 80px; }
+    footer .b_foot .b_end1 {
+      background-color: blue; }
+    footer .b_foot .b_end2 {
+      background-color: blue; }
+    footer .b_foot .b_end3 {
+      background-color: #e99002; }
+  footer .menu_foot {
+    background: #333; }
+    footer .menu_foot .copyright {
+      padding-left: 600px; }
